@@ -1,0 +1,23 @@
+
+.pagination {
+  margin: 0.5em 0;
+}
+
+.pagination-next {
+  text-align: center;
+  a {
+    color: #017004;
+    font-size: 1.4em;
+    font-weight: 800;
+    &:after {
+      content: '';
+      margin: 0;
+      display: none;
+    }
+    &:hover {
+      color: #017004;
+      background: none;
+      text-decoration: underline;
+    }
+  }
+}
