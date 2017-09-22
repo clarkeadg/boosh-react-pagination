@@ -6,7 +6,7 @@ const PaginationReducer  = require('./Reducers/PaginationReducer');
 
 module.exports = {
   Pagination:            Pagination.default,
-  PaginationActions:     PaginationActions,
+  PaginationActions:     PaginationActions.default,
   getPageNumber:         PaginationSelector.getPageNumber,
   getPageCount:          PaginationSelector.getPageCount,
   PaginationReducer:     PaginationReducer.default
